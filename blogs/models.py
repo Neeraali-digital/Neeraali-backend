@@ -4,6 +4,7 @@ class Blog(models.Model):
     STATUS_CHOICES = [
         ('draft', 'Draft'),
         ('published', 'Published'),
+        ('archived', 'Archived'),
     ]
 
     title = models.CharField(max_length=200)
