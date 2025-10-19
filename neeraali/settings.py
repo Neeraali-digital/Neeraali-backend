@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o#0gpvq=57-pzx9%dlxc2x_)myk24twi0t#%k#=#((5$ulzgnp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['backend.neeraali.com']
 
 
 # Application definition
